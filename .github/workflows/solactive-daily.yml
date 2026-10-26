@@ -6,9 +6,11 @@ on:
       - 'scripts/fetch_solactive.py'
       - '.github/workflows/solactive-daily.yml'
   schedule:
-    - cron: '17 9 * * *'
+    - cron: '13 9 * * 1-5'
       timezone: Europe/Helsinki
-    - cron: '42 9 * * *'
+    - cron: '37 9 * * 1-5'
+      timezone: Europe/Helsinki
+    - cron: '51 9 * * 1-5'
       timezone: Europe/Helsinki
 
 permissions:
