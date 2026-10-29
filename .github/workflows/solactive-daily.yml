@@ -1,4 +1,5 @@
 name: Update Solactive AI index
+# Refresh requested via ChatGPT
 # Manual refresh test via workflow-file push
 on:
   workflow_dispatch:
