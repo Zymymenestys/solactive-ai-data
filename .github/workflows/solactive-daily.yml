@@ -1,4 +1,5 @@
 name: Update Solactive AI index
+# Manual refresh test via workflow-file push
 on:
   workflow_dispatch:
   push:
